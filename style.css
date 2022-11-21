@@ -6,8 +6,8 @@
     --fonte1: 'Passion One', cursive;
     --fonte2: 'Sriracha', cursive;
     --body: darkgrey;
-    --header: black;
-    --footer: black;
+    --header:rgb(74, 38, 2)  ;
+    --footer:rgb(74, 38, 2) ;
 }
 *{ 
     margin: 0px;
@@ -58,7 +58,7 @@ section p{
     padding-bottom: 2em;
 }
 section.normal{
-    background-color: white;
+    background-color:rgb(238, 213, 179);
     color: black;
 }
 section.imagem{
@@ -78,29 +78,14 @@ section.imagem > p{
 #img01{
     background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: center center;
     
 }
 #img02{
     background-image: url(imagens/background002.jpg);
     background-repeat: no-repeat;
-    background-position:right center;
-    
+    background-position:center center; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 footer{
